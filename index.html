@@ -11,19 +11,30 @@ title: planet fred
 
 <html>
 <head>
-<style>
-.center {
-    text-align: center;
-    border: 3px solid black;
+<style> 
+#example1 {
+    border: 2px solid black;
+    padding: 10px;
+    border-top-right-radius: 25px;
+}
+
+#example2 {
+    border: 2px solid black;
+    padding: 10px;
+    border-top-right-radius: 50px 20px;
 }
 </style>
 </head>
 <body>
-<div class="center">
-	
-  <p>Books.</p>
+
+<h2>border-top-right-radius: 25px:</h2>
+<div id="example1">
+<p>The border-top-right-radius property defines the radius of the top-right corner.</p>
 </div>
-<div style="width:150px;height:40px;border:2px solid #000;">
+
+<h2>border-top-right-radius: 50px 20px:</h2>
+<div id="example2">
+<p>If two values are set; the first one is for the top border, the second one for the right border.</p>
 </div>
 
 </body>
