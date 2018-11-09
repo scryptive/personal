@@ -2,6 +2,20 @@
 layout: default
 title: Notes
 ---
+<style>
+	
+.main {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    left: 50%;
+    top: 30%;
+    margin-top: -150px;
+    margin-left: -550px;
+}
+</style>
+
+<div class="main">
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
@@ -9,3 +23,4 @@ title: Notes
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+</div><!-- /.main -->
