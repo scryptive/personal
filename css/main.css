@@ -47,7 +47,7 @@ default-font = 'Hack', sans-serif
 
 @font-face
     font-family 'Hack'
-        url('fonts/cubano-webfont.ttf') format('truetype'),
-        url('fonts/cubano-webfont.ttf') format('truetype')
+        url('fonts/Hack-Bold.ttf') format('truetype'),
+        url('fonts/Hack-Regular.ttf') format('truetype')
     font-weight normal
     font-style normal
